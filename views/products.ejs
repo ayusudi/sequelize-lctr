@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <table border="1">
+            <tr>
+                <th>title</th>
+                <th>description</th>
+                <th>price</th>
+                <th>stock</th>
+                <th>brand</th>
+                <th>category</th>
+            </tr>
+            <% data.forEach(element => { %>
+                <tr>
+                    <td><%= element.title %></td>
+                    <td><%= element.description %></td>
+                    <td><%= element.priceRupiah %></td>
+                    <td><%= element.stock %></td>
+                    <td><%= element.brand %></td>
+                    <td><%= element.Category.name %></td>
+                </tr>
+            <% }) %>
+        </table>
+    </body>
+</html>

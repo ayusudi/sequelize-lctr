@@ -1,0 +1,36 @@
+<html>
+<body>
+    <a href="/categories/add">Add</a>
+    <table border="1">
+        <tr>
+            <th>name</th>
+            <th>total product</th>
+            <th>products</th>
+            <th>actions</th>
+        </tr>
+        <% data.forEach(element=> { %>
+            <tr>
+                <td>
+                    <%= element.name %>
+                </td>
+                <td>
+                    <%= element.Products.length %>
+                </td>
+                <td>
+                    <ul>
+                        <% element.Products.forEach(p => { %>
+                            <li> <%= p.title %></li>
+                         <% }) %>
+                    </ul>
+                    
+                </td>
+                <td>
+                    <a href="/categories/<%= element.id %>/edit">Edit</a>
+                    <a href="/categories/<%= element.id %>/delete">Delete</a>
+                </td>
+            </tr>
+            <% }) %>
+    </table>
+</body>
+
+</html>

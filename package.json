@@ -1,0 +1,29 @@
+{
+  "name": "fsjs-p1-sequelize-intro-yudantoanas",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10686272&assignment_repo_type=AssignmentRepo) # Udin Mart - Lecture Sequelize Intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h8-fsjs-gitclass-p1-23/fsjs-p1-sequelize-intro-yudantoanas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h8-fsjs-gitclass-p1-23/fsjs-p1-sequelize-intro-yudantoanas/issues"
+  },
+  "homepage": "https://github.com/h8-fsjs-gitclass-p1-23/fsjs-p1-sequelize-intro-yudantoanas#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "sequelize": "^6.30.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
